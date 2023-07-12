@@ -3,7 +3,7 @@ Generic trainer script to fine tune LLMs in an alpaca formatted dataset
 
 Based on Abhishek Thakur video "Train LLMs in just 50 lines of code!"
 
-install tiktoken and bitsandbytes as well as accelerate
+Check README.md for more details
 """
 import os
 import torch
