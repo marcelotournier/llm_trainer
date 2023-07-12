@@ -5,7 +5,6 @@ Based on Abhishek Thakur video "Train LLMs in just 50 lines of code!"
 
 Check README.md for more details
 """
-import os
 import torch
 from datasets import load_dataset
 from peft import LoraConfig, get_peft_model, prepare_model_for_int8_training
@@ -83,5 +82,4 @@ def train():
     model.save_pretrained(OUTPUT_DIR)
 
 if __name__ == "__main__":
-    os.environ['NEPTUNE_PROJECT'] = "marcelotournier/example-project-tensorflow-keras"
     train()
