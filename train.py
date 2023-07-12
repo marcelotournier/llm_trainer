@@ -17,7 +17,7 @@ INPUT_DATASET = "tatsu-lab/alpaca"
 DATASET_SPLIT = "train"
 DATA_TXT_FIELD =  "text"
 MAX_SEQUENCE_LEN = 1024
-USE_FP_16 = False # True # Only use in cuda
+USE_FP_16 = False # True # Only use in cuda. TPUs and M1 mac GPU needs it False
 MODEL = "salesforce/xgen-7b-8k-base"
 OUTPUT_DIR = "xgen-7b-8k-base"
 
