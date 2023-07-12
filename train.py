@@ -18,8 +18,8 @@ DATASET_SPLIT = "train"
 DATA_TXT_FIELD =  "text"
 MAX_SEQUENCE_LEN = 1024
 USE_FP_16 = False # True # Only use in cuda
-MODEL = "gpt2" # "salesforce/xgen-7b-8k-base"
-OUTPUT_DIR = "gpt2-model" # "xgen-7b-8k-base"
+MODEL = "salesforce/xgen-7b-8k-base"
+OUTPUT_DIR = "xgen-7b-8k-base"
 
 
 def train():
